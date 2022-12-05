@@ -42,7 +42,7 @@
   "devDependencies": {
     "@tsconfig/node18-strictest": "1.0.0",
     "@types/dedent": "0.7.0",
-    "@types/jest": "29.2.3",
+    "@types/jest": "29.2.4",
     "@types/node": "18.11.10",
     "eslint": "8.29.0",
     "eslint-config-promise": "github:promise/eslint-config",
