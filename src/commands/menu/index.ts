@@ -1,4 +1,6 @@
 import type{ Awaitable, GuildMember, Message, MessageContextMenuCommandInteraction, UserContextMenuCommandInteraction } from "discord.js";
+import { join } from "path";
+import { readdirSync } from "fs";
 
 interface BaseMenuCommand {
   name: string;
@@ -17,4 +19,7 @@ export interface MessageMenuCommand extends BaseMenuCommand {
 
 export type MenuCommand = MessageMenuCommand | UserMenuCommand;
 
-export const allMenuCommands: MenuCommand[] = [];
+export const allMenuCommands = readdirSync(__dirname)
+  .filter(file => !file.includes("index") && (file.endsWith(".js") || file.endsWith(".ts")))
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires -- we need this for it to be synchronous
+  .map(file => require(join(__dirname, file)).default as MenuCommand);
