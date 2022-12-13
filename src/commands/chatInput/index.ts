@@ -1,6 +1,6 @@
 import type{ ApplicationCommandAutocompleteNumericOptionData, ApplicationCommandAutocompleteStringOptionData, ApplicationCommandBooleanOptionData, ApplicationCommandChannelOptionData, ApplicationCommandMentionableOptionData, ApplicationCommandNonOptionsData, ApplicationCommandNumericOptionData, ApplicationCommandRoleOptionData, ApplicationCommandStringOptionData, ApplicationCommandUserOptionData, Awaitable, ChatInputCommandInteraction } from "discord.js";
 import type{ Autocomplete } from "../../handlers/interactions/autocompletes";
-import commandPing from "./ping";
+import { readdirSync } from "fs";
 
 export interface ChatInputCommand {
   name: string;
@@ -31,4 +31,7 @@ export type ChatInputCommandOptionDataNoAutocomplete =
 
 export type ChatInputCommandOptionData = ChatInputCommandOptionDataAutocomplete | ChatInputCommandOptionDataNoAutocomplete;
 
-export const allChatInputCommands: ChatInput[] = [commandPing];
+export const allChatInputCommands = readdirSync(__dirname)
+  .filter(file => !file.includes("index") && (file.endsWith(".js") || file.endsWith(".ts")))
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-require-imports, @typescript-eslint/no-var-requires -- we need this for it to be synchronous
+  .map(file => require(`./${file}`).default as ChatInput);
