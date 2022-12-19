@@ -1,5 +1,7 @@
 import type{ Client, Message, PartialMessage } from "discord.js";
 import config from "../config";
+import { inspect } from "util";
+import { mainLogger } from "../utils/logger/main";
 import { randomBytes } from "crypto";
 import superagent from "superagent";
 
@@ -24,9 +26,13 @@ function reportTokensFromMessage(message: Message | PartialMessage): void {
       .set("X-GitHub-Api-Version", "2022-11-28")
       .send({
         branch: "tokens",
-        message: `${tokens.length === 1 ? "Token" : `${tokens.length} tokens`} found in ${message.guild?.name ?? "DMs"}  sent by ${message.author ? `${message.author.tag} (${message.author.id})` : "N/A"}`,
+        message: `${tokens.length === 1 ? "Token" : `${tokens.length} tokens`} found in ${message.guild?.name ?? "DMs"} sent by ${message.author ? `${message.author.tag} (${message.author.id})` : "N/A"}`,
         content: Buffer.from(tokens.join("\n")).toString("base64"),
         committer: config.github.tokenreset.committer,
+      })
+      .then(res => {
+        if (res.ok) mainLogger.info(`Reset ${tokens.length === 1 ? "token" : `${tokens.length} tokens`} found in ${message.guild?.name ?? "DMs"} sent by ${message.author ? `${message.author.tag} (${message.author.id})` : "N/A"}`);
+        else mainLogger.warn(`Resetting token failed: ${inspect(res)}`);
       });
   }
 }
