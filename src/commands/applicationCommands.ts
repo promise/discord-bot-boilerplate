@@ -1,5 +1,5 @@
 import type{ ApplicationCommandData, ApplicationCommandOptionData, ApplicationCommandSubCommandData, ApplicationCommandSubGroupData } from "discord.js";
-import type{ ChatInput, ChatInputCommand, ChatInputCommandOptionData, ChatInputCommandOptionDataAutocomplete, ChatInputSubcommand } from "./chatInput";
+import type{ ChatInputCommand, ChatInputCommandExecutable, ChatInputCommandOptionData, ChatInputCommandOptionDataAutocomplete } from "./chatInput";
 import { ApplicationCommandOptionType } from "discord.js";
 import { ApplicationCommandType } from "discord.js";
 import { allChatInputCommands } from "./chatInput";
@@ -13,13 +13,13 @@ export default function getAllApplicationCommands(): ApplicationCommandData[] {
       name: command.name,
       description: command.description,
       type: ApplicationCommandType.ChatInput,
-      ...chatInputIsCommandOrSubcommand(command) ?
+      ...chatInputIsExecutable(command) ?
         { ...command.options && { options: convertChatInputCommandOptionsToApplicationCommandOptions(command.options) }} :
         {
           options: command.subcommands.map(subcommand => ({
             name: subcommand.name,
             description: subcommand.description,
-            ...chatInputIsCommandOrSubcommand(subcommand) ?
+            ...chatInputIsExecutable(subcommand) ?
               {
                 type: ApplicationCommandOptionType.Subcommand,
                 ...subcommand.options && { options: convertChatInputCommandOptionsToApplicationCommandOptions(subcommand.options) },
@@ -57,9 +57,9 @@ function convertChatInputCommandOptionsToApplicationCommandOptions(chatInputComm
   });
 }
 
-function chatInputIsCommandOrSubcommand(chatInputCommand: ChatInput): chatInputCommand is ChatInputCommand | ChatInputSubcommand {
+function chatInputIsExecutable(chatInputCommand: ChatInputCommand): chatInputCommand is ChatInputCommandExecutable & typeof chatInputCommand {
   // it's basically the same so it doesn't really matter
-  return !("subcommands" in chatInputCommand);
+  return "execute" in chatInputCommand;
 }
 
 function chatInputCommandOptionIsAutocomplete(option: ChatInputCommandOptionData): option is ChatInputCommandOptionDataAutocomplete {

@@ -98,6 +98,5 @@ function generateResponse(result: unknown, ms = -1, success = true, includeResul
     return generateResponse(result, ms, success, includeResult, depth, maxArrayLength - 1);
   }
 
-
   return { content };
 }
