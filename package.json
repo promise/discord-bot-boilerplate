@@ -33,9 +33,10 @@
     "@sapphire/type": "2.3.0",
     "@typegoose/typegoose": "10.0.0",
     "dedent": "0.7.0",
+    "discord-token-reset": "github:promise/discord-tokens",
     "discord.js": "14.7.1",
     "dotenv": "16.0.3",
-    "mongoose": "6.7.5",
+    "mongoose": "6.8.1",
     "superagent": "8.0.6",
     "winston": "3.8.2",
     "winston-daily-rotate-file": "4.7.1"
@@ -50,7 +51,7 @@
     "eslint-config-promise": "github:promise/eslint-config",
     "jest": "29.3.1",
     "ts-jest": "29.0.3",
-    "typescript": "4.6.4"
+    "typescript": "4.9.4"
   },
   "optionalDependencies": {
     "bufferutil": "4.0.7",
