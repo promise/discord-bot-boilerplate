@@ -36,7 +36,7 @@
     "discord-token-reset": "github:promise/discord-tokens",
     "discord.js": "14.7.1",
     "dotenv": "16.0.3",
-    "mongoose": "6.8.1",
+    "mongoose": "6.8.3",
     "superagent": "8.0.6",
     "winston": "3.8.2",
     "winston-daily-rotate-file": "4.7.1"
