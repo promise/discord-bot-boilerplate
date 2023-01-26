@@ -26,7 +26,7 @@
     "dotenv": "16.0.3",
     "erlpack": "github:discord/erlpack",
     "mongoose": "6.8.4",
-    "superagent": "8.0.8",
+    "superagent": "8.0.9",
     "utf-8-validate": "5.0.10",
     "winston": "3.8.2",
     "winston-daily-rotate-file": "4.7.1",
