@@ -1,30 +1,40 @@
 FROM node:18-alpine@sha256:bc329c7332cffc30c2d4801e38df03cbfa8dcbae2a7a52a449db104794f168a3 AS base
-RUN apk --no-cache add dumb-init g++ gcc make python3
+RUN apk --no-cache add g++ gcc make python3
 
 WORKDIR /app
 ENV IS_DOCKER=true
 
-COPY package*.json ./
+
+# install prod dependencies
+
+FROM base AS deps
+RUN npm install -g pnpm
+
+COPY package.json ./
+COPY pnpm-lock.yaml ./
+
+RUN pnpm install --frozen-lockfile --prod
 
 
-# compile typescript to normal javascript
+# install all dependencies and build typescript
 
-FROM base AS builder
-RUN npm ci
+FROM deps AS ts-builder
+RUN pnpm install --frozen-lockfile
 
 COPY tsconfig.json ./
 COPY ./src ./src
-RUN npm run build
+RUN pnpm run build
 
 
 # production image
 
-FROM base AS final
-RUN npm ci --omit=dev
+FROM base
 
-COPY .env ./.env
-COPY --from=builder /app/build ./build
+COPY .env* ./
+COPY --from=deps /app/node_modules ./node_modules
+COPY --from=ts-builder /app/build ./build
+COPY package.json ./
 
 ENV NODE_ENV=production
-ENTRYPOINT [ "dumb-init", "npm", "run" ]
+ENTRYPOINT [ "npm", "run" ]
 CMD [ "start" ]
