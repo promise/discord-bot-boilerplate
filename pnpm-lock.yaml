@@ -17,7 +17,7 @@ specifiers:
   eslint: 8.33.0
   eslint-config-promise: github:promise/eslint-config
   jest: 29.4.1
-  mongoose: 6.9.0
+  mongoose: 6.9.1
   superagent: 8.0.9
   ts-jest: 29.0.5
   typescript: 4.9.5
@@ -28,14 +28,14 @@ specifiers:
 
 dependencies:
   '@sapphire/type': 2.3.0
-  '@typegoose/typegoose': 10.1.1_mongoose@6.9.0
+  '@typegoose/typegoose': 10.1.1_mongoose@6.9.1
   bufferutil: 4.0.7
   dedent: 0.7.0
   discord-token-reset: github.com/promise/discord-tokens/92b951cdcc503cef9a347031e06c67944261bcd2_5lpnj53coakt6y2xbrlncbiemm
   discord.js: 14.7.1_3cxu5zja4e2r5wmvge7mdcljwq
   dotenv: 16.0.3
   erlpack: github.com/discord/erlpack/cbe76be04c2210fc9cb6ff95910f0937c1011d04
-  mongoose: 6.9.0
+  mongoose: 6.9.1
   superagent: 8.0.9
   utf-8-validate: 5.0.10
   winston: 3.8.2
@@ -1786,7 +1786,7 @@ packages:
     resolution: {integrity: sha512-bOuNKwO4Fzbt+Su5wqI9zNHwx5C25gLnutwVQA1sBZk0cW8UjVPVcwzIUhJIIJDUx7zDEbAwdCD2HfvIsV8dYg==}
     dev: true
 
-  /@typegoose/typegoose/10.1.1_mongoose@6.9.0:
+  /@typegoose/typegoose/10.1.1_mongoose@6.9.1:
     resolution: {integrity: sha512-QzRzgFnsQ3/UTToUEVJ5ln4t/QzlznEat7bcn9tNt4U6QCytPVvTJnRe5SwrJllxakgz0yrnbKkTw9YeoiYXuQ==}
     engines: {node: '>=14.17.0'}
     peerDependencies:
@@ -1794,7 +1794,7 @@ packages:
     dependencies:
       lodash: 4.17.21
       loglevel: 1.8.1
-      mongoose: 6.9.0
+      mongoose: 6.9.1
       reflect-metadata: 0.1.13
       semver: 7.3.8
       tslib: 2.5.0
@@ -4185,8 +4185,8 @@ packages:
       - aws-crt
     dev: false
 
-  /mongoose/6.9.0:
-    resolution: {integrity: sha512-5tu6+trwjk5TIH6b6iYgAwmzZ0RNOxFoqXQb9h21Oi45DeM1rWM/niHxJ4ROqBISDfQMwRvLSABHTsyn3AzoFQ==}
+  /mongoose/6.9.1:
+    resolution: {integrity: sha512-hOz1ZWV0w6WEVLrj89Wpk7PXDYtDDF6k7/NX79lY5iKqeFtZsceBXW8xW59YFNcW5O3cH32hQ8IbDlhgyBsDMA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       bson: 4.7.1
