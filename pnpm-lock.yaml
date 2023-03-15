@@ -5,7 +5,7 @@ specifiers:
   '@tsconfig/node18-strictest': 1.0.0
   '@typegoose/typegoose': 10.2.0
   '@types/dedent': 0.7.0
-  '@types/jest': 29.4.1
+  '@types/jest': 29.4.2
   '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   bufferutil: 4.0.7
@@ -31,7 +31,7 @@ dependencies:
   '@typegoose/typegoose': 10.2.0_mongoose@6.10.0
   bufferutil: 4.0.7
   dedent: 0.7.0
-  discord-token-reset: github.com/promise/discord-tokens/007547be388158e1c8b336060a079a32fd14a1eb_5lpnj53coakt6y2xbrlncbiemm
+  discord-token-reset: github.com/promise/discord-tokens/ab1bd09839417adacf535c8965bcdec6ff219f9c_5lpnj53coakt6y2xbrlncbiemm
   discord.js: 14.7.1_3cxu5zja4e2r5wmvge7mdcljwq
   dotenv: 16.0.3
   erlpack: github.com/discord/erlpack/cbe76be04c2210fc9cb6ff95910f0937c1011d04
@@ -45,11 +45,11 @@ dependencies:
 devDependencies:
   '@tsconfig/node18-strictest': 1.0.0
   '@types/dedent': 0.7.0
-  '@types/jest': 29.4.1
+  '@types/jest': 29.4.2
   '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   eslint: 8.36.0
-  eslint-config-promise: github.com/promise/eslint-config/419f0fbf9137a3a2b71686b0283718365756312b_jpalyieylsbpjrtzdvsi36kkmy
+  eslint-config-promise: github.com/promise/eslint-config/4aad21806e6105507a8f7fb1756a7f6843b93680_jpalyieylsbpjrtzdvsi36kkmy
   jest: 29.5.0_@types+node@18.15.3
   ts-jest: 29.0.5_jidrtxojdl3qcl2uuqzcavzvbi
   typescript: 4.9.5
@@ -1891,8 +1891,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.4.1:
-    resolution: {integrity: sha512-zDQSWXG+ZkEvs2zFFMszePhx4euKz+Yt3Gg1P+RHjfJBinTTr6L2DEyovO4V/WrKXuF0Dgn56GWGZPDa6TW9eQ==}
+  /@types/jest/29.4.2:
+    resolution: {integrity: sha512-bbne90W7is+m88ezmZrLiTpp41tIoTdvPC5t3gLoNgu/6qbGdWTC2JWqPWQRJn2Q7rVYTr8aTWqOjhGJDXyvAQ==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
@@ -5563,9 +5563,9 @@ packages:
       nan: 2.17.0
     dev: false
 
-  github.com/promise/discord-tokens/007547be388158e1c8b336060a079a32fd14a1eb_5lpnj53coakt6y2xbrlncbiemm:
-    resolution: {tarball: https://codeload.github.com/promise/discord-tokens/tar.gz/007547be388158e1c8b336060a079a32fd14a1eb}
-    id: github.com/promise/discord-tokens/007547be388158e1c8b336060a079a32fd14a1eb
+  github.com/promise/discord-tokens/ab1bd09839417adacf535c8965bcdec6ff219f9c_5lpnj53coakt6y2xbrlncbiemm:
+    resolution: {tarball: https://codeload.github.com/promise/discord-tokens/tar.gz/ab1bd09839417adacf535c8965bcdec6ff219f9c}
+    id: github.com/promise/discord-tokens/ab1bd09839417adacf535c8965bcdec6ff219f9c
     name: discord-token-reset
     version: 0.0.0
     peerDependencies:
@@ -5576,9 +5576,9 @@ packages:
       discord.js: 14.7.1_3cxu5zja4e2r5wmvge7mdcljwq
     dev: false
 
-  github.com/promise/eslint-config/419f0fbf9137a3a2b71686b0283718365756312b_jpalyieylsbpjrtzdvsi36kkmy:
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/419f0fbf9137a3a2b71686b0283718365756312b}
-    id: github.com/promise/eslint-config/419f0fbf9137a3a2b71686b0283718365756312b
+  github.com/promise/eslint-config/4aad21806e6105507a8f7fb1756a7f6843b93680_jpalyieylsbpjrtzdvsi36kkmy:
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/4aad21806e6105507a8f7fb1756a7f6843b93680}
+    id: github.com/promise/eslint-config/4aad21806e6105507a8f7fb1756a7f6843b93680
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:
