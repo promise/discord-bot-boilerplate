@@ -5,7 +5,7 @@ specifiers:
   '@tsconfig/node18-strictest': 1.0.0
   '@typegoose/typegoose': 10.2.0
   '@types/dedent': 0.7.0
-  '@types/jest': 29.4.4
+  '@types/jest': 29.5.0
   '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   bufferutil: 4.0.7
@@ -45,7 +45,7 @@ dependencies:
 devDependencies:
   '@tsconfig/node18-strictest': 1.0.0
   '@types/dedent': 0.7.0
-  '@types/jest': 29.4.4
+  '@types/jest': 29.5.0
   '@types/node': 18.15.3
   '@types/superagent': 4.1.16
   eslint: 8.36.0
@@ -1891,8 +1891,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.4.4:
-    resolution: {integrity: sha512-qezb65VIH7X1wobSnd6Lvdve7PXSyQRa3dljTkhTtDhi603RvHQCshSlJcuyMLHJpeHgY3NKwvDJWxMOOHxGDQ==}
+  /@types/jest/29.5.0:
+    resolution: {integrity: sha512-3Emr5VOl/aoBwnWcH/EFQvlSAmjV+XtV9GGu5mwdYew5vhQh0IUZx/60x0TzHDu09Bi7HMx10t/namdJw5QIcg==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
