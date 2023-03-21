@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@sapphire/type': 2.3.0
   '@tsconfig/node18-strictest': 1.0.0
-  '@typegoose/typegoose': 10.2.0
+  '@typegoose/typegoose': 10.3.3
   '@types/dedent': 0.7.0
   '@types/jest': 29.5.0
   '@types/node': 18.15.5
@@ -17,7 +17,7 @@ specifiers:
   eslint: 8.36.0
   eslint-config-promise: github:promise/eslint-config
   jest: 29.5.0
-  mongoose: 6.10.0
+  mongoose: 6.10.3
   superagent: 8.0.9
   ts-jest: 29.0.5
   typescript: 4.9.5
@@ -28,14 +28,14 @@ specifiers:
 
 dependencies:
   '@sapphire/type': 2.3.0
-  '@typegoose/typegoose': 10.2.0_mongoose@6.10.0
+  '@typegoose/typegoose': 10.3.3_mongoose@6.10.3
   bufferutil: 4.0.7
   dedent: 0.7.0
   discord-token-reset: github.com/promise/discord-tokens/f156bf6195cf770d99793655b18ce95f25c6baa0_6mlh3udn55g634dldtbqqflg7a
   discord.js: 14.8.0_3cxu5zja4e2r5wmvge7mdcljwq
   dotenv: 16.0.3
   erlpack: github.com/discord/erlpack/cbe76be04c2210fc9cb6ff95910f0937c1011d04
-  mongoose: 6.10.0
+  mongoose: 6.10.3
   superagent: 8.0.9
   utf-8-validate: 5.0.10
   winston: 3.8.2
@@ -1826,15 +1826,15 @@ packages:
     resolution: {integrity: sha512-bOuNKwO4Fzbt+Su5wqI9zNHwx5C25gLnutwVQA1sBZk0cW8UjVPVcwzIUhJIIJDUx7zDEbAwdCD2HfvIsV8dYg==}
     dev: true
 
-  /@typegoose/typegoose/10.2.0_mongoose@6.10.0:
-    resolution: {integrity: sha512-HP+0IGjjdxXeN57q0NgnSqTEAdPVuW17yL0QcHKqqI4Hb/cSJR+xEMBn8QcansS+hCCkzkYOKodo0Wv6Fzn12Q==}
+  /@typegoose/typegoose/10.3.3_mongoose@6.10.3:
+    resolution: {integrity: sha512-pbgaPytydBqL3Pcl1ak7QScBXynnrcw1UAW74s0oSRQi7MPkBEU3Bc9b+W5ds3mgNGFw6M7Gcjl6NETDYoU1Pg==}
     engines: {node: '>=14.17.0'}
     peerDependencies:
       mongoose: ~6.10.0
     dependencies:
       lodash: 4.17.21
       loglevel: 1.8.1
-      mongoose: 6.10.0
+      mongoose: 6.10.3
       reflect-metadata: 0.1.13
       semver: 7.3.8
       tslib: 2.5.0
@@ -4401,8 +4401,8 @@ packages:
       - aws-crt
     dev: false
 
-  /mongoose/6.10.0:
-    resolution: {integrity: sha512-0zrKDEnmNscYyAyN94smo2LlJ63gaezKHpHM+KQ+6EiAgAnah5Kt3hQSYzOTQX/63YNdT1oJXiLlB5LqTdcjUw==}
+  /mongoose/6.10.3:
+    resolution: {integrity: sha512-fZ3pIlQn7lM632r1l4qiU58lKrJ+FufKVG8TNeRXSChAeu9alCl5KoQ9bLw4jnQNYevSq9o+sqZmFDHP+EVW3g==}
     engines: {node: '>=12.0.0'}
     dependencies:
       bson: 4.7.1
