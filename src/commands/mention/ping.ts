@@ -9,4 +9,4 @@ export default {
     const botMessage = await reply("〽️ Pinging...");
     return void botMessage.edit(`🏓 Server latency is \`${Date.now() - now}ms\`, shard latency is \`${Math.ceil(message.guild.shard.ping)}ms\` and my uptime is \`${msToHumanShortTime(message.client.uptime)}\`.`);
   },
-} as MentionCommand;
+} satisfies MentionCommand;
