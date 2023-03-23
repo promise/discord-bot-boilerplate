@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@sapphire/type': 2.3.0
   '@tsconfig/node18-strictest': 1.0.0
-  '@typegoose/typegoose': 10.3.3
+  '@typegoose/typegoose': 10.3.4
   '@types/dedent': 0.7.0
   '@types/jest': 29.5.0
   '@types/node': 18.15.5
@@ -28,7 +28,7 @@ specifiers:
 
 dependencies:
   '@sapphire/type': 2.3.0
-  '@typegoose/typegoose': 10.3.3_mongoose@6.10.4
+  '@typegoose/typegoose': 10.3.4_mongoose@6.10.4
   bufferutil: 4.0.7
   dedent: 0.7.0
   discord-token-reset: github.com/promise/discord-tokens/f156bf6195cf770d99793655b18ce95f25c6baa0_6mlh3udn55g634dldtbqqflg7a
@@ -1816,8 +1816,8 @@ packages:
     resolution: {integrity: sha512-bOuNKwO4Fzbt+Su5wqI9zNHwx5C25gLnutwVQA1sBZk0cW8UjVPVcwzIUhJIIJDUx7zDEbAwdCD2HfvIsV8dYg==}
     dev: true
 
-  /@typegoose/typegoose/10.3.3_mongoose@6.10.4:
-    resolution: {integrity: sha512-pbgaPytydBqL3Pcl1ak7QScBXynnrcw1UAW74s0oSRQi7MPkBEU3Bc9b+W5ds3mgNGFw6M7Gcjl6NETDYoU1Pg==}
+  /@typegoose/typegoose/10.3.4_mongoose@6.10.4:
+    resolution: {integrity: sha512-C27lxLnfdYnVJM96EbE/ocRIWyuufqFMZQI4q4e1TD6rXSyeDxNGQpBdv0FxGE9emQ6Mk6h2mBFJq7uGRp14Cw==}
     engines: {node: '>=14.17.0'}
     peerDependencies:
       mongoose: ~6.10.0
