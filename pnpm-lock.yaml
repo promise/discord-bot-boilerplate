@@ -6,7 +6,7 @@ dependencies:
     version: 2.3.0
   '@typegoose/typegoose':
     specifier: 11.0.1
-    version: 11.0.1(mongoose@7.0.3)
+    version: 11.0.1(mongoose@7.0.4)
   bufferutil:
     specifier: 4.0.7
     version: 4.0.7
@@ -26,8 +26,8 @@ dependencies:
     specifier: github:discord/erlpack
     version: github.com/discord/erlpack/cbe76be04c2210fc9cb6ff95910f0937c1011d04
   mongoose:
-    specifier: 7.0.3
-    version: 7.0.3
+    specifier: 7.0.4
+    version: 7.0.4
   superagent:
     specifier: 8.0.9
     version: 8.0.9
@@ -1030,7 +1030,7 @@ packages:
     deprecated: TypeScript 5.0 supports combining TSConfigs using array syntax in extends
     dev: true
 
-  /@typegoose/typegoose@11.0.1(mongoose@7.0.3):
+  /@typegoose/typegoose@11.0.1(mongoose@7.0.4):
     resolution: {integrity: sha512-HxHskX6oxWmrcjwKYwKZNbOb9cSlP9tmqaRSd2MwjR9zEuCzgPIBGPv9o/TSab+IxrTUNgnK3dah+/KOhLDWMQ==}
     engines: {node: '>=14.17.0'}
     peerDependencies:
@@ -1038,7 +1038,7 @@ packages:
     dependencies:
       lodash: 4.17.21
       loglevel: 1.8.1
-      mongoose: 7.0.3
+      mongoose: 7.0.4
       reflect-metadata: 0.1.13
       semver: 7.3.8
       tslib: 2.5.0
@@ -3651,8 +3651,8 @@ packages:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose@7.0.3:
-    resolution: {integrity: sha512-3n8vc1/mssuxKa6vfghSocp3MeiCFYzhX36Ok+PsDNNYzHC9tw3rNkAMLemIwZ2jgXqkZ7CfKOxkzjp/d/SWfg==}
+  /mongoose@7.0.4:
+    resolution: {integrity: sha512-MEmQOOqQUvW1PJcji64NtA2EFGHrEvk9o4g//isVYSJW2+8Y8u49C2qFBKzn1t6/l9onQn012o/PcFqR6ixQpQ==}
     engines: {node: '>=14.0.0'}
     dependencies:
       bson: 5.2.0
