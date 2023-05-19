@@ -38,7 +38,7 @@
     "@types/jest": "29.5.1",
     "@types/node": "18.16.13",
     "@types/superagent": "4.1.17",
-    "eslint": "8.40.0",
+    "eslint": "8.41.0",
     "eslint-config-promise": "github:promise/eslint-config",
     "jest": "29.5.0",
     "ts-jest": "29.1.0",
