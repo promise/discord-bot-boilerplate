@@ -19,7 +19,7 @@ dependencies:
     version: 0.7.0
   discord-token-reset:
     specifier: github:promise/discord-tokens
-    version: github.com/promise/discord-tokens/1f9ee9eaff2f792c862f82e5b732c7a24d6fb975(@octokit/rest@19.0.11)(discord.js@14.9.0)
+    version: github.com/promise/discord-tokens/32f8de3c5c2bf165b0e9a2d37b31a2d3e8164e12(@octokit/rest@19.0.11)(discord.js@14.9.0)
   discord.js:
     specifier: 14.9.0
     version: 14.9.0(bufferutil@4.0.7)(utf-8-validate@5.0.10)
@@ -4939,9 +4939,9 @@ packages:
       nan: 2.17.0
     dev: false
 
-  github.com/promise/discord-tokens/1f9ee9eaff2f792c862f82e5b732c7a24d6fb975(@octokit/rest@19.0.11)(discord.js@14.9.0):
-    resolution: {tarball: https://codeload.github.com/promise/discord-tokens/tar.gz/1f9ee9eaff2f792c862f82e5b732c7a24d6fb975}
-    id: github.com/promise/discord-tokens/1f9ee9eaff2f792c862f82e5b732c7a24d6fb975
+  github.com/promise/discord-tokens/32f8de3c5c2bf165b0e9a2d37b31a2d3e8164e12(@octokit/rest@19.0.11)(discord.js@14.9.0):
+    resolution: {tarball: https://codeload.github.com/promise/discord-tokens/tar.gz/32f8de3c5c2bf165b0e9a2d37b31a2d3e8164e12}
+    id: github.com/promise/discord-tokens/32f8de3c5c2bf165b0e9a2d37b31a2d3e8164e12
     name: discord-token-reset
     version: 0.0.0
     peerDependencies:
