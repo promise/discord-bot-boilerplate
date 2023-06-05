@@ -50,7 +50,6 @@ const client = new Client({
   ],
   presence: { status: "online" },
   rest: { userAgentAppendix: "Bot Name (bot repository) " },
-  ws: { compress: true },
 });
 
 // init client
