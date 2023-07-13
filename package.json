@@ -25,7 +25,7 @@
     "discord.js": "14.11.0",
     "dotenv": "16.3.1",
     "erlpack": "github:discord/erlpack",
-    "mongoose": "7.3.3",
+    "mongoose": "7.3.4",
     "superagent": "8.0.9",
     "utf-8-validate": "5.0.10",
     "winston": "3.10.0",
