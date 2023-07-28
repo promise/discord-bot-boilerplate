@@ -15,8 +15,8 @@ dependencies:
     specifier: 4.0.7
     version: 4.0.7
   dedent:
-    specifier: 1.2.0
-    version: 1.2.0
+    specifier: 1.3.0
+    version: 1.3.0
   discord-token-reset:
     specifier: github:promise/discord-tokens
     version: github.com/promise/discord-tokens/77bbbd019a73737f2f7314e7136688b30a093740(@octokit/rest@20.0.1)(discord.js@14.11.0)
@@ -1858,8 +1858,8 @@ packages:
     dependencies:
       ms: 2.1.2
 
-  /dedent@1.2.0:
-    resolution: {integrity: sha512-i4tcg0ClgvMUSxwHpt+NHQ01ZJmAkl6eBvDNrSZG9e+oLRTCSHv0wpr/Bzjpf6CwKeIHGevE1M34Y1Axdms5VQ==}
+  /dedent@1.3.0:
+    resolution: {integrity: sha512-7glNLfvdsMzZm3FpRY1CHuI2lbYDR+71YmrhmTZjYFD5pfT0ACgnGRdrrC9Mk2uICnzkcdelCx5at787UDGOvg==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -2968,7 +2968,7 @@ packages:
       '@types/node': 18.17.1
       chalk: 4.1.2
       co: 4.6.0
-      dedent: 1.2.0
+      dedent: 1.3.0
       is-generator-fn: 2.1.0
       jest-each: 29.6.2
       jest-matcher-utils: 29.6.2
