@@ -19,7 +19,7 @@ dependencies:
     version: 1.5.1
   discord-token-reset:
     specifier: github:promise/discord-tokens
-    version: github.com/promise/discord-tokens/68a3cd244320eac617499c94f85d6cd4bfae3b69(@octokit/rest@20.0.1)(discord.js@14.13.0)
+    version: github.com/promise/discord-tokens/e06cc347f842d458ba6659d38723108457c603d5(@octokit/rest@20.0.1)(discord.js@14.13.0)
   discord.js:
     specifier: 14.13.0
     version: 14.13.0(bufferutil@4.0.7)(utf-8-validate@6.0.3)
@@ -62,14 +62,14 @@ devDependencies:
     specifier: 18.17.19
     version: 18.17.19
   '@types/superagent':
-    specifier: 4.1.18
-    version: 4.1.18
+    specifier: 4.1.19
+    version: 4.1.19
   eslint:
     specifier: 8.50.0
     version: 8.50.0
   eslint-config-promise:
     specifier: github:promise/eslint-config
-    version: github.com/promise/eslint-config/e7816a8fbb0cc3c3d7cdda128ab8d615b269412e(@typescript-eslint/eslint-plugin@6.7.2)(@typescript-eslint/parser@6.7.2)(eslint-plugin-i@2.28.1)(eslint-plugin-jest@27.4.0)(eslint-plugin-react@7.33.2)(eslint-plugin-tailwindcss@3.13.0)(eslint@8.50.0)
+    version: github.com/promise/eslint-config/b69d2f92b6affc2f5893a6873a6b9fd9f06724c4(@typescript-eslint/eslint-plugin@6.7.2)(@typescript-eslint/parser@6.7.2)(eslint-plugin-i@2.28.1)(eslint-plugin-jest@27.4.0)(eslint-plugin-react@7.33.2)(eslint-plugin-tailwindcss@3.13.0)(eslint@8.50.0)
   jest:
     specifier: 29.7.0
     version: 29.7.0(@types/node@18.17.19)
@@ -1120,8 +1120,8 @@ packages:
     resolution: {integrity: sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==}
     dev: true
 
-  /@types/superagent@4.1.18:
-    resolution: {integrity: sha512-LOWgpacIV8GHhrsQU+QMZuomfqXiqzz3ILLkCtKx3Us6AmomFViuzKT9D693QTKgyut2oCytMG8/efOop+DB+w==}
+  /@types/superagent@4.1.19:
+    resolution: {integrity: sha512-McM1mlc7PBZpCaw0fw/36uFqo0YeA6m8JqoyE4OfqXsZCIg0hPP2xdE6FM7r6fdprDZHlJwDpydUj1R++93hCA==}
     dependencies:
       '@types/cookiejar': 2.1.2
       '@types/node': 18.17.19
@@ -5214,9 +5214,9 @@ packages:
       nan: 2.17.0
     dev: false
 
-  github.com/promise/discord-tokens/68a3cd244320eac617499c94f85d6cd4bfae3b69(@octokit/rest@20.0.1)(discord.js@14.13.0):
-    resolution: {tarball: https://codeload.github.com/promise/discord-tokens/tar.gz/68a3cd244320eac617499c94f85d6cd4bfae3b69}
-    id: github.com/promise/discord-tokens/68a3cd244320eac617499c94f85d6cd4bfae3b69
+  github.com/promise/discord-tokens/e06cc347f842d458ba6659d38723108457c603d5(@octokit/rest@20.0.1)(discord.js@14.13.0):
+    resolution: {tarball: https://codeload.github.com/promise/discord-tokens/tar.gz/e06cc347f842d458ba6659d38723108457c603d5}
+    id: github.com/promise/discord-tokens/e06cc347f842d458ba6659d38723108457c603d5
     name: discord-token-reset
     version: 0.0.0
     peerDependencies:
@@ -5227,9 +5227,9 @@ packages:
       discord.js: 14.13.0(bufferutil@4.0.7)(utf-8-validate@6.0.3)
     dev: false
 
-  github.com/promise/eslint-config/e7816a8fbb0cc3c3d7cdda128ab8d615b269412e(@typescript-eslint/eslint-plugin@6.7.2)(@typescript-eslint/parser@6.7.2)(eslint-plugin-i@2.28.1)(eslint-plugin-jest@27.4.0)(eslint-plugin-react@7.33.2)(eslint-plugin-tailwindcss@3.13.0)(eslint@8.50.0):
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/e7816a8fbb0cc3c3d7cdda128ab8d615b269412e}
-    id: github.com/promise/eslint-config/e7816a8fbb0cc3c3d7cdda128ab8d615b269412e
+  github.com/promise/eslint-config/b69d2f92b6affc2f5893a6873a6b9fd9f06724c4(@typescript-eslint/eslint-plugin@6.7.2)(@typescript-eslint/parser@6.7.2)(eslint-plugin-i@2.28.1)(eslint-plugin-jest@27.4.0)(eslint-plugin-react@7.33.2)(eslint-plugin-tailwindcss@3.13.0)(eslint@8.50.0):
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/b69d2f92b6affc2f5893a6873a6b9fd9f06724c4}
+    id: github.com/promise/eslint-config/b69d2f92b6affc2f5893a6873a6b9fd9f06724c4
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:
