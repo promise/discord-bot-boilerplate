@@ -36,7 +36,7 @@
     "@tsconfig/node18": "18.2.2",
     "@tsconfig/strictest": "2.0.2",
     "@types/jest": "29.5.10",
-    "@types/node": "18.18.11",
+    "@types/node": "18.18.12",
     "@types/superagent": "4.1.22",
     "eslint": "8.54.0",
     "eslint-config-promise": "github:promise/eslint-config",
