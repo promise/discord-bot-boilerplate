@@ -33,7 +33,7 @@
     "zlib-sync": "0.1.9"
   },
   "devDependencies": {
-    "@tsconfig/node18": "18.2.3",
+    "@tsconfig/node18": "18.2.4",
     "@tsconfig/strictest": "2.0.4",
     "@types/jest": "29.5.12",
     "@types/node": "18.19.26",
