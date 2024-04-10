@@ -20,7 +20,7 @@
     "@sapphire/type": "2.4.4",
     "@typegoose/typegoose": "12.2.0",
     "bufferutil": "4.0.8",
-    "dedent": "1.5.1",
+    "dedent": "1.5.2",
     "discord-token-reset": "github:promise/discord-tokens",
     "discord.js": "14.14.1",
     "dotenv": "16.4.5",
