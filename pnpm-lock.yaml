@@ -66,7 +66,7 @@ devDependencies:
     version: 8.57.0
   eslint-config-promise:
     specifier: github:promise/eslint-config
-    version: github.com/promise/eslint-config/0ae4ff4acaa1e2e09d19726b5453717cb3877ee1(@stylistic/eslint-plugin-js@1.8.0)(@stylistic/eslint-plugin-jsx@1.7.2)(@stylistic/eslint-plugin-ts@1.8.0)(@typescript-eslint/eslint-plugin@7.8.0)(@typescript-eslint/parser@7.8.0)(eslint-plugin-i@2.29.1)(eslint-plugin-jest@27.9.0)(eslint-plugin-react@7.34.1)(eslint-plugin-tailwindcss@3.15.1)(eslint@8.57.0)
+    version: github.com/promise/eslint-config/f7afa5ba80505c625ea2d40da270fdefaabfc4d3(@stylistic/eslint-plugin-js@1.8.0)(@stylistic/eslint-plugin-jsx@1.7.2)(@stylistic/eslint-plugin-ts@1.8.0)(@typescript-eslint/eslint-plugin@7.8.0)(@typescript-eslint/parser@7.8.0)(eslint-plugin-i@2.29.1)(eslint-plugin-jest@27.9.0)(eslint-plugin-react@7.34.1)(eslint-plugin-tailwindcss@3.15.1)(eslint@8.57.0)
   jest:
     specifier: 29.7.0
     version: 29.7.0(@types/node@20.12.2)
@@ -5465,9 +5465,9 @@ packages:
       nan: 2.19.0
     dev: false
 
-  github.com/promise/eslint-config/0ae4ff4acaa1e2e09d19726b5453717cb3877ee1(@stylistic/eslint-plugin-js@1.8.0)(@stylistic/eslint-plugin-jsx@1.7.2)(@stylistic/eslint-plugin-ts@1.8.0)(@typescript-eslint/eslint-plugin@7.8.0)(@typescript-eslint/parser@7.8.0)(eslint-plugin-i@2.29.1)(eslint-plugin-jest@27.9.0)(eslint-plugin-react@7.34.1)(eslint-plugin-tailwindcss@3.15.1)(eslint@8.57.0):
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/0ae4ff4acaa1e2e09d19726b5453717cb3877ee1}
-    id: github.com/promise/eslint-config/0ae4ff4acaa1e2e09d19726b5453717cb3877ee1
+  github.com/promise/eslint-config/f7afa5ba80505c625ea2d40da270fdefaabfc4d3(@stylistic/eslint-plugin-js@1.8.0)(@stylistic/eslint-plugin-jsx@1.7.2)(@stylistic/eslint-plugin-ts@1.8.0)(@typescript-eslint/eslint-plugin@7.8.0)(@typescript-eslint/parser@7.8.0)(eslint-plugin-i@2.29.1)(eslint-plugin-jest@27.9.0)(eslint-plugin-react@7.34.1)(eslint-plugin-tailwindcss@3.15.1)(eslint@8.57.0):
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f7afa5ba80505c625ea2d40da270fdefaabfc4d3}
+    id: github.com/promise/eslint-config/f7afa5ba80505c625ea2d40da270fdefaabfc4d3
     name: eslint-config-promise
     version: 0.0.0
     peerDependencies:
