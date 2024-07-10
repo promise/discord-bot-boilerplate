@@ -27,7 +27,7 @@
     "mongoose": "8.3.5",
     "superagent": "9.0.2",
     "utf-8-validate": "6.0.4",
-    "winston": "3.13.0",
+    "winston": "3.13.1",
     "winston-daily-rotate-file": "5.0.0",
     "zlib-sync": "0.1.9"
   },
