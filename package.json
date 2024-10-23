@@ -34,7 +34,7 @@
   "devDependencies": {
     "@tsconfig/node20": "20.1.4",
     "@tsconfig/strictest": "2.0.5",
-    "@types/jest": "29.5.13",
+    "@types/jest": "29.5.14",
     "@types/node": "20.12.2",
     "@types/superagent": "8.1.9",
     "eslint": "8.57.1",
