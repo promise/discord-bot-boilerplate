@@ -1,4 +1,4 @@
-FROM node:20-alpine@sha256:291e84d956f1aff38454bbd3da38941461ad569a185c20aa289f71f37ea08e23 AS base
+FROM node:22-alpine AS base
 RUN apk --no-cache add g++ gcc make python3
 
 WORKDIR /app
@@ -8,7 +8,7 @@ ENV IS_DOCKER=true
 # install prod dependencies
 
 FROM base AS deps
-RUN npm install -g pnpm@8
+RUN npm install -g pnpm@9
 
 COPY package.json ./
 COPY pnpm-lock.yaml ./
