@@ -35,14 +35,11 @@
     "@types/jest": "29.5.14",
     "@types/node": "22.10.0",
     "@types/superagent": "8.1.9",
-    "eslint": "8.57.1",
+    "eslint": "9.16.0",
     "eslint-config-promise": "github:promise/eslint-config",
     "jest": "29.7.0",
     "ts-jest": "29.2.5",
     "typescript": "5.7.2"
-  },
-  "eslintConfig": {
-    "extends": "promise"
   },
   "jest": {
     "preset": "ts-jest",
@@ -51,5 +48,6 @@
       "<rootDir>/build/",
       "<rootDir>/node_modules/"
     ]
-  }
+  },
+  "packageManager": "pnpm@9.15.0"
 }
