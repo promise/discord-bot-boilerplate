@@ -13,7 +13,7 @@ importers:
         version: 2.6.0
       '@typegoose/typegoose':
         specifier: 12.11.0
-        version: 12.11.0(mongoose@8.10.0)
+        version: 12.11.0(mongoose@8.10.1)
       bufferutil:
         specifier: 4.0.9
         version: 4.0.9
@@ -27,8 +27,8 @@ importers:
         specifier: 16.4.7
         version: 16.4.7
       mongoose:
-        specifier: 8.10.0
-        version: 8.10.0
+        specifier: 8.10.1
+        version: 8.10.1
       winston:
         specifier: 3.17.0
         version: 3.17.0
@@ -2013,8 +2013,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.10.0:
-    resolution: {integrity: sha512-nLhk3Qrv6q/HpD2k1O7kbBqsq+/kmKpdv5KJ+LLhQlII3e1p/SSLoLP6jMuSiU6+iLK7zFw4T1niAk3mA3QVug==}
+  mongoose@8.10.1:
+    resolution: {integrity: sha512-5beTeBZnJNndRXU9rxPol0JmTWZMAtgkPbooROkGilswvrZALDERY4cJrGZmgGwDS9dl0mxiB7si+Mv9Yms2fg==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -3408,11 +3408,11 @@ snapshots:
 
   '@tsconfig/strictest@2.0.5': {}
 
-  '@typegoose/typegoose@12.11.0(mongoose@8.10.0)':
+  '@typegoose/typegoose@12.11.0(mongoose@8.10.1)':
     dependencies:
       lodash: 4.17.21
       loglevel: 1.9.2
-      mongoose: 8.10.0
+      mongoose: 8.10.1
       reflect-metadata: 0.2.2
       semver: 7.7.1
       tslib: 2.8.1
@@ -3556,7 +3556,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
       ts-api-utils: 1.4.3(typescript@5.7.3)
     optionalDependencies:
       typescript: 5.7.3
@@ -3571,7 +3571,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
       ts-api-utils: 2.0.0(typescript@5.7.3)
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -3585,7 +3585,7 @@ snapshots:
       fast-glob: 3.3.3
       is-glob: 4.0.3
       minimatch: 9.0.5
-      semver: 7.7.0
+      semver: 7.7.1
       ts-api-utils: 2.0.0(typescript@5.7.3)
       typescript: 5.7.3
     transitivePeerDependencies:
@@ -5308,7 +5308,7 @@ snapshots:
       bson: 6.10.2
       mongodb-connection-string-url: 3.0.2
 
-  mongoose@8.10.0:
+  mongoose@8.10.1:
     dependencies:
       bson: 6.10.2
       kareem: 2.6.3
