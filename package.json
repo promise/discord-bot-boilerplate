@@ -21,7 +21,7 @@
     "@typegoose/typegoose": "12.11.0",
     "bufferutil": "4.0.9",
     "dedent": "1.5.3",
-    "discord.js": "14.16.3",
+    "discord.js": "14.18.0",
     "dotenv": "16.4.7",
     "mongoose": "8.10.1",
     "winston": "3.17.0",
