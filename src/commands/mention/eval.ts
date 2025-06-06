@@ -1,5 +1,5 @@
 import type{ MessageEditOptions, MessageReplyOptions } from "discord.js";
-import SapphireType from "@sapphire/type";
+// import SapphireType from "@sapphire/type";
 import { randomBytes } from "crypto";
 import dedent from "dedent";
 import { blockQuote, ButtonStyle, codeBlock, ComponentType, inlineCode } from "discord.js";
@@ -61,7 +61,6 @@ function generateFinalResponse(result: unknown, ms = -1, success = true, fileUpl
           {
             name: "output.ts",
             attachment: Buffer.from(dedent`
-              // type: ${new SapphireType(result).toString()}
               // time: ${ms === -1 ? "n/a" : `${ms}ms`}
               // success: ${success ? "yes" : "no"}\n
             ` + inspect(result, { depth: Infinity, maxArrayLength: Infinity, maxStringLength: Infinity })),
@@ -89,8 +88,7 @@ function generateFinalResponse(result: unknown, ms = -1, success = true, fileUpl
 function generateResponse(result: unknown, ms = -1, success = true, includeResult = true, depth = 10, maxArrayLength = 100): MessageEditOptions & MessageReplyOptions {
   if (depth <= 0) return { content: "⚠️ Output is too big to display" };
   const output = inspect(result, { colors: true, depth, maxArrayLength });
-  const type = new SapphireType(result).toString();
-  const content = `${success ? "✅ Evaluated successfully" : "❌ Javascript failed"}. ${ms === -1 ? "" : `(${inlineCode(`${ms}ms`)})`}\n${includeResult ? blockQuote(codeBlock("ts", ms === -1 ? type : `Promise<${type}>`) + codeBlock("ansi", success ? output : output.split("\n")[0]!)) : ""}`;
+  const content = `${success ? "✅ Evaluated successfully" : "❌ Javascript failed"}. ${ms === -1 ? "" : `(${inlineCode(`${ms}ms`)})`}\n${includeResult ? blockQuote(codeBlock("ansi", success ? output : output.split("\n")[0]!)) : ""}`;
 
   // 1024 is not the actual limit but any bigger than 1k is really not ideal either way
   if (content.length > 1024) {
