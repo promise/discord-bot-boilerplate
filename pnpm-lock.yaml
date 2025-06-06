@@ -12,8 +12,8 @@ importers:
         specifier: 2.6.0
         version: 2.6.0
       '@typegoose/typegoose':
-        specifier: 12.14.0
-        version: 12.14.0(mongoose@8.14.0)
+        specifier: 12.16.0
+        version: 12.16.0(mongoose@8.15.1)
       bufferutil:
         specifier: 4.0.9
         version: 4.0.9
@@ -27,8 +27,8 @@ importers:
         specifier: 16.5.0
         version: 16.5.0
       mongoose:
-        specifier: 8.14.0
-        version: 8.14.0
+        specifier: 8.15.1
+        version: 8.15.1
       winston:
         specifier: 3.17.0
         version: 3.17.0
@@ -56,7 +56,7 @@ importers:
         version: 9.28.0(jiti@1.21.7)
       eslint-config-promise:
         specifier: github:promise/eslint-config
-        version: https://codeload.github.com/promise/eslint-config/tar.gz/c8b9d79b14c4194d39499401a4f81e26edb6c8f1(ef4bff3a008e60455ba32aee9179e67c)
+        version: https://codeload.github.com/promise/eslint-config/tar.gz/ca5a0e9b2a0361037a6a490e1439ee5df1639393(ef4bff3a008e60455ba32aee9179e67c)
       jest:
         specifier: 29.7.0
         version: 29.7.0(@types/node@22.10.0)
@@ -506,11 +506,11 @@ packages:
   '@tsconfig/strictest@2.0.5':
     resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
 
-  '@typegoose/typegoose@12.14.0':
-    resolution: {integrity: sha512-9Gr9kvqDYabSbabv40VpsIIuxhKaNGv5uWcTYOBvzoPQ21toFOKs4jD3GtdOOcYJLYF+8I4Sj2R0inrFL2qFIw==}
+  '@typegoose/typegoose@12.16.0':
+    resolution: {integrity: sha512-uTfX2ImVVNyKZ0V3O/8JA9rIhJko2uj5KWijORfcGaNCUjGlNz0ARMyw3bmDHWszB3X2VkPXv/aNUaWmbwPD7g==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
-      mongoose: ~8.13.0
+      mongoose: ~8.15.0
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -1124,8 +1124,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/c8b9d79b14c4194d39499401a4f81e26edb6c8f1:
-    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/c8b9d79b14c4194d39499401a4f81e26edb6c8f1}
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/ca5a0e9b2a0361037a6a490e1439ee5df1639393:
+    resolution: {tarball: https://codeload.github.com/promise/eslint-config/tar.gz/ca5a0e9b2a0361037a6a490e1439ee5df1639393}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -2001,8 +2001,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@8.14.0:
-    resolution: {integrity: sha512-IxDxIUu42apE7oEknJK535xkQ6Gd7GKx/gNrNHY+vP4+ucVU2TOCWjVVW14Vc79y9DEEElzHDlTOuVNM8glUFA==}
+  mongoose@8.15.1:
+    resolution: {integrity: sha512-RhQ4DzmBi5BNGcS0w4u1vdMRIKcteXTCNzDt1j7XRcdWYBz1MjMjulBhPaeC5jBCHOD1yinuOFTTSOWLLGexWw==}
     engines: {node: '>=16.20.1'}
 
   mpath@0.9.0:
@@ -3395,11 +3395,11 @@ snapshots:
 
   '@tsconfig/strictest@2.0.5': {}
 
-  '@typegoose/typegoose@12.14.0(mongoose@8.14.0)':
+  '@typegoose/typegoose@12.16.0(mongoose@8.15.1)':
     dependencies:
       lodash: 4.17.21
       loglevel: 1.9.2
-      mongoose: 8.14.0
+      mongoose: 8.15.1
       reflect-metadata: 0.2.2
       semver: 7.7.2
       tslib: 2.8.1
@@ -4175,7 +4175,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/c8b9d79b14c4194d39499401a4f81e26edb6c8f1(ef4bff3a008e60455ba32aee9179e67c):
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/ca5a0e9b2a0361037a6a490e1439ee5df1639393(ef4bff3a008e60455ba32aee9179e67c):
     dependencies:
       '@stylistic/eslint-plugin-js': 4.2.0(eslint@9.28.0(jiti@1.21.7))
       '@stylistic/eslint-plugin-jsx': 4.2.0(eslint@9.28.0(jiti@1.21.7))
@@ -5279,7 +5279,7 @@ snapshots:
       bson: 6.10.3
       mongodb-connection-string-url: 3.0.2
 
-  mongoose@8.14.0:
+  mongoose@8.15.1:
     dependencies:
       bson: 6.10.3
       kareem: 2.6.3
