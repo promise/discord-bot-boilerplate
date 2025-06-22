@@ -17,9 +17,11 @@ const client = new Client({
   ],
   makeCache: Options.cacheWithLimits({
     ApplicationCommandManager: 0,
+    ApplicationEmojiManager: 0,
     AutoModerationRuleManager: 0,
     BaseGuildEmojiManager: 0,
     DMMessageManager: 0,
+    EntitlementManager: 0,
     GuildBanManager: 0,
     GuildEmojiManager: 0,
     GuildForumThreadManager: 0,
