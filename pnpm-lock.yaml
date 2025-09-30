@@ -30,11 +30,11 @@ importers:
         specifier: 8.17.2
         version: 8.17.2
       winston:
-        specifier: 3.18.0
-        version: 3.18.0
+        specifier: 3.18.1
+        version: 3.18.1
       winston-daily-rotate-file:
         specifier: 5.0.0
-        version: 5.0.0(winston@3.18.0)
+        version: 5.0.0(winston@3.18.1)
       zlib-sync:
         specifier: 0.1.10
         version: 0.1.10
@@ -2879,8 +2879,8 @@ packages:
     resolution: {integrity: sha512-8drMJ4rkgaPo1Me4zD/3WLfI/zPdA9o2IipKODunnGDcuqbHwjsbB79ylv04LCGGzU0xQ6vTznOMpQGaLhhm6A==}
     engines: {node: '>= 12.0.0'}
 
-  winston@3.18.0:
-    resolution: {integrity: sha512-P1w1/arnQP3RmAlmYoSVt9UerYnwPo2yocGMKyb/D5nMR2PbBXTvqT0XxXGsyuRlq5BXLO0co3zJjgzTmp5gnw==}
+  winston@3.18.1:
+    resolution: {integrity: sha512-EaQ6y7b9h6q7UJQn4/xlOsiu0I8844FfMdbN6V2I2i4528qeEWqRUcHzhvkseckAb1QxMhwX5V2YYiABkOfGfg==}
     engines: {node: '>= 12.0.0'}
 
   word-wrap@1.2.5:
@@ -6417,12 +6417,12 @@ snapshots:
     dependencies:
       string-width: 4.2.3
 
-  winston-daily-rotate-file@5.0.0(winston@3.18.0):
+  winston-daily-rotate-file@5.0.0(winston@3.18.1):
     dependencies:
       file-stream-rotator: 0.6.1
       object-hash: 3.0.0
       triple-beam: 1.4.1
-      winston: 3.18.0
+      winston: 3.18.1
       winston-transport: 4.9.0
 
   winston-transport@4.9.0:
@@ -6431,7 +6431,7 @@ snapshots:
       readable-stream: 3.6.2
       triple-beam: 1.4.1
 
-  winston@3.18.0:
+  winston@3.18.1:
     dependencies:
       '@colors/colors': 1.6.0
       '@dabh/diagnostics': 2.0.6
