@@ -12,8 +12,8 @@ importers:
         specifier: 2.6.0
         version: 2.6.0
       '@typegoose/typegoose':
-        specifier: 12.20.0
-        version: 12.20.0(mongoose@8.20.4)
+        specifier: 12.20.1
+        version: 12.20.1(mongoose@8.20.4)
       bufferutil:
         specifier: 4.0.9
         version: 4.0.9
@@ -534,8 +534,8 @@ packages:
   '@tybys/wasm-util@0.10.1':
     resolution: {integrity: sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==}
 
-  '@typegoose/typegoose@12.20.0':
-    resolution: {integrity: sha512-xto62e4iHDj71il+nOSDutW1O3/sA4ItPUM6sesnKsoPqVIdKg6T76Kafc7fTin8QrknYeo2/UthcDhLBBm1iA==}
+  '@typegoose/typegoose@12.20.1':
+    resolution: {integrity: sha512-tHDg9XHOoCO09uy1IhTf9mDvLlIkh+TenwEha0P/SxXD0XMqMk1GdlhmjW1OP0movUdPepbdX3x801zZnh0M6w==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       mongoose: ~8.19.1
@@ -3554,7 +3554,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@typegoose/typegoose@12.20.0(mongoose@8.20.4)':
+  '@typegoose/typegoose@12.20.1(mongoose@8.20.4)':
     dependencies:
       lodash: 4.17.21
       loglevel: 1.9.2
