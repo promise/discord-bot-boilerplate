@@ -18,12 +18,12 @@
   },
   "dependencies": {
     "@sapphire/type": "2.6.0",
-    "@typegoose/typegoose": "12.20.1",
+    "@typegoose/typegoose": "12.21.0",
     "bufferutil": "4.0.9",
     "dedent": "1.7.1",
     "discord.js": "14.25.1",
     "dotenv": "17.2.4",
-    "mongoose": "8.20.4",
+    "mongoose": "8.23.0",
     "winston": "3.19.0",
     "winston-daily-rotate-file": "5.0.0",
     "zlib-sync": "0.1.10"
