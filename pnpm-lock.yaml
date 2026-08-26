@@ -12,8 +12,8 @@ importers:
         specifier: 2.6.0
         version: 2.6.0
       '@typegoose/typegoose':
-        specifier: 13.1.0
-        version: 13.1.0(mongoose@9.2.3)
+        specifier: 13.4.0
+        version: 13.4.0(mongoose@9.2.3)
       bufferutil:
         specifier: 4.1.0
         version: 4.1.0
@@ -545,11 +545,11 @@ packages:
   '@tybys/wasm-util@0.10.2':
     resolution: {integrity: sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==}
 
-  '@typegoose/typegoose@13.1.0':
-    resolution: {integrity: sha512-ZAD209rhEGHNJ3eBqeFl2guUXgKGgR6xTP6LNmxciN6GbdznqLLdX4nsm2wafQpd4bxb8v0vmHe4z4QvVIj8CQ==}
+  '@typegoose/typegoose@13.4.0':
+    resolution: {integrity: sha512-xNgYE87S1smShal3fARLNr5FzzzKoKlzCHbGrXjIQyfRoLLuss5IAoESruhdAtx7YBJBvn78BfMiAlbzkbVjjg==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      mongoose: ~9.1.4
+      mongoose: ~9.7.3
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -1277,7 +1277,7 @@ packages:
     engines: {node: '>=10'}
 
   eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148:
-    resolution: {gitHosted: true, integrity: sha512-qDWXd38Nxf4Yh2K/9KFnAu+3XCHZp0Ya8AsBuLDdlY8SIjHV1Fww28J95CLP7CCN+RazG24hvC7UzWvGMDVD1w==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -1377,6 +1377,7 @@ packages:
   eslint@9.39.4:
     resolution: {integrity: sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -3629,7 +3630,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@typegoose/typegoose@13.1.0(mongoose@9.2.3)':
+  '@typegoose/typegoose@13.4.0(mongoose@9.2.3)':
     dependencies:
       lodash: 4.18.1
       loglevel: 1.9.2
