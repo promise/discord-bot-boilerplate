@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@tsconfig/node22": "22.0.5",
-    "@tsconfig/strictest": "2.0.8",
+    "@tsconfig/strictest": "2.0.9",
     "@types/jest": "30.0.0",
     "@types/node": "22.10.0",
     "eslint": "9.39.4",
